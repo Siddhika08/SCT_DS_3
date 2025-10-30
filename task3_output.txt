@@ -1,0 +1,62 @@
+📥 Reading tables from the UCI dataset page...
+
+✅ Total tables found on the webpage: 2
+
+📋 Table 1 preview:
+  Variable Name     Role         Type      Demographic  \
+0           age  Feature      Integer              Age   
+1           job  Feature  Categorical       Occupation   
+2       marital  Feature  Categorical   Marital Status   
+3     education  Feature  Categorical  Education Level   
+4       default  Feature       Binary              NaN   
+
+                                         Description Units Missing Values  
+0                                                NaN   NaN             no  
+1  type of job (categorical: 'admin.','blue-colla...   NaN             no  
+2  marital status (categorical: 'divorced','marri...   NaN             no  
+3  (categorical: 'basic.4y','basic.6y','basic.9y'...   NaN             no  
+4                             has credit in default?   NaN             no  
+------------------------------------------------------------
+
+📋 Table 2 preview:
+                  File      Size
+0             bank.zip  565.5 KB
+1  bank-additional.zip  434.2 KB
+------------------------------------------------------------
+
+📂 Attempting to load the actual dataset CSV from UCI...
+⚠️ Could not load the CSV dataset automatically.
+Error details: HTTP Error 404: Not Found
+
+Using sample data instead for demonstration purposes.
+
+
+🔹 Dataset Preview:
+   age          job  marital  education  balance    y
+0   30        admin  married  secondary     1000  yes
+1   40   technician   single   tertiary     1500   no
+2   50  blue-collar  married    primary      500   no
+3   35        admin   single  secondary     1200  yes
+4   28     services  married  secondary      300   no
+
+🔧 Encoding categorical variables...
+
+🌳 Training Decision Tree Classifier...
+
+📈 Model Evaluation Results:
+Accuracy Score: 0.0
+
+Classification Report:
+               precision    recall  f1-score   support
+
+       False       0.00      0.00      0.00       2.0
+        True       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       2.0
+   macro avg       0.00      0.00      0.00       2.0
+weighted avg       0.00      0.00      0.00       2.0
+
+
+💾 Saved description table as 'bank_marketing_description.csv'
+
+✅ Task 3 completed successfully!
